@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.Write("Введите элементы массива через пробел: ");
+string? inputString = Console.ReadLine();
+string[] inputArray = inputString.Split(' ');
+
